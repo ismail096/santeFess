@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Selectionner Votre Choix:"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#8BC34A"
+            android:hint="Pharmacie"
+            android:padding="12dp"
+            android:textColor="?attr/colorPrimary"
+            android:textColorHint="@color/cardview_light_background"
+            android:id="@+id/bt1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#8BC34A"
+            android:hint="Pharmacie de Garde"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/cardview_light_background"
+            android:id="@+id/bt2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#8BC34A"
+            android:hint="Medecin"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/cardview_light_background"
+            android:id="@+id/bt3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#8BC34A"
+            android:hint="Hopital"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/cardview_light_background"
+            android:id="@+id/bt4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Medecin,Pharmacien ou bien d'autre "
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/cardview_light_background"
+            android:id="@+id/bt6"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:text="Inscriez Vous"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_toRightOf="@+id/relativeLayout"
+            android:layout_toEndOf="@+id/relativeLayout"
+            android:layout_marginLeft="104dp"
+            android:layout_marginStart="104dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="©2017"
+            android:textColor="@color/cardview_light_background"
+            android:elevation="1dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

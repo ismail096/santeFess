@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pfe</string>
+    <string name="title_activity_pharmacie">pharmacie</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="some_hint">
+  Search&#8230;
+ </string>
+
+
+</resources>
